@@ -1,0 +1,36 @@
+h1 {
+    font-size: 60px;
+    color: brown;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.bth{
+    border-radius: 20px;
+    background: tgb(255, 255, 177);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-decoration:none;
+}
+header nav{
+    display: flex;
+    gap: 180px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+nav a {
+    border: 2px solid rgb(224, 36, 64);
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgb(205, 216, 84);
+}
